@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE personas SYSTEM "personas.dtd"> -->
+<personas>
+<persona tipo="profesor" id="1">
+ <datos_generales>
+   <nombre_completo>
+      <nombre foto="mujer.jpg" canción="https://www.youtube.com/watch?v=3VmoZrxXbmg">Reyna Carolina</nombre>
+      <apat>Medina</apat>
+      <amat>Ramirez</amat>
+   </nombre_completo>
+   <contacto>
+     <telefono_numero tipo="oficina" ext="2309">58044600</telefono_numero>
+   <correo>rcarolinamedina@gmail.com</correo>
+   <oficina edificio="T" num_oficina="309" direccion_postal="San Rafael Atlixco No. 186, Col. Vicentina, Iztapalapa, 09340, México"/>
+   </contacto>
+ </datos_generales>
+
+ <datos_academicos categoria="Asociado_D" año_ingreso="2005" tiempo_dedicacion="Tiempo completo"
+                   tipo_contrato="Base" departamento="Ingenieria Electrica">
+  <grados>  
+  <grado nivel="PhD" año="2003" institucion="UNSA" pais="Francia"/>
+  <grado nivel="Maestría" año="" institucion="Colegio de Posgraduados" pais="México"/>
+  <grado nivel="licenciatura" año=""  institucion="Colegio de Posgraduados" pais="México"/>
+    <grado nivel="MediaSuperior" año="" institucion="Colegio de Posgraduados" pais="México"/>
+  </grados>
+  <reconocimientos>
+    <reconocimiento tipo="Perfil_PRODEP" año_ini="2008" año_fin="2019" descripcion=""/>
+   </reconocimientos>
+
+  <areas_de_interes>
+    <area nombre="Tecnologías Semánticas aplicadas a redes de comunicaciones (Educación)"/>
+    <area nombre="Datos abiertos enlazados"/>
+  </areas_de_interes>
+  <tesis_PhD titulo="Contribution à la recherche d'informations sémantiques: Capitalisation de connaissances dans une mémoire d'interactions génique" institucion="Université de Nice-Sophia Antipolis" pais="France" año="2003"/>
+  </datos_academicos>
+ </persona>
+
+ <persona tipo="profesor" id="2">
+  <datos_generales>
+    <nombre_completo>
+       <nombre foto="person2.jpg" canción="https://www.youtube.com/watch?v=3OnnDqH6Wj8">Cristhian</nombre>
+       <apat>Sánchez</apat>
+       <amat>Sánchez</amat>
+    </nombre_completo>
+    <contacto>
+      <telefono_numero tipo="oficina" ext="3258">58146500</telefono_numero>
+   <correo>csanchez@correo.cua.uam.mx</correo>
+   <oficina edificio="Torre III" num_oficina="C 505" direccion_postal="Av. Vasco de Quiroga 4871, Contadero, 05370 Ciudad de México, CDMX"/>
+    </contacto>
+  </datos_generales>
+
+  <datos_academicos categoria="Investigación" año_ingreso="2008" tiempo_dedicacion="Tiempo completo"
+                    tipo_contrato="Base" departamento="Ciencias">
+   <grados>
+     <grado nivel="Dr" año="2008"  institucion="Intituto del Petroleo" pais="México"/>
+     <grado nivel="Licenciatura" año="2003" institucion="Instituto Politecnico Nacional" pais="México"/>
+   </grados>
+
+   <reconocimientos>
+     <reconocimiento tipo="" año_ini="" año_fin="" descripcion=""/>
+    </reconocimientos>
+
+   <areas_de_interes>
+    <area nombre="El descubrimiento, integración y composición de servicios de software."/>
+    <area nombre="los sistemas multi-agente y su aplicación en las cadenas de suministro."/>
+  </areas_de_interes>
+   <tesis_PhD titulo="Contribution à la recherche d'informations sémantiques: Capitalisation de connaissances dans une mémoire d'interactions génique" institucion="Université de Nice-Sophia Antipolis" pais="France" año="2003"/>
+   </datos_academicos>
+  </persona>
+
+  <persona tipo="profesor" id="3">
+   <datos_generales>
+     <nombre_completo>
+        <nombre foto="person3.jpg" canción="https://www.youtube.com/watch?v=WpYeekQkAdc">Eduardo</nombre>
+        <apat>Leyva</apat>
+        <amat>Del Foyo</amat>
+     </nombre_completo>
+     <contacto>
+       <telefono_numero tipo="oficina" ext="2949">58146500</telefono_numero>
+     <correo>lleyva@correo.cua.uam.mx</correo>
+     <oficina edificio="Torre III" num_oficina="C 604" direccion_postal="Av. Vasco de Quiroga 4871, Contadero, 05370 Ciudad de México, CDMX"/>
+     </contacto>
+   </datos_generales>
+
+   <datos_academicos categoria="Investigación" año_ingreso="2009" tiempo_dedicacion="Tiempo completo"
+                     tipo_contrato="Base" departamento="Ciencias">
+    <grados>
+       <grado nivel="Dr en Ciencias" año="2008"  institucion="Intituto Politecnico Nacional" pais="México"/>
+       <grado nivel="Maestría" año="2000" institucion="Instituto Politecnico Nacional" pais="México"/>
+    </grados>
+
+    <reconocimientos>
+      <reconocimiento tipo="" año_ini="" año_fin="" descripcion=""/>
+     </reconocimientos>
+
+    <areas_de_interes>
+      <area nombre="Inteligencia Artificial"/>
+    </areas_de_interes>
+     <tesis_PhD titulo="Contribution à la recherche d'informations sémantiques: Capitalisation de connaissances dans une mémoire d'interactions génique" institucion="Université de Nice-Sophia Antipolis" pais="France" año="2003"/>
+    </datos_academicos>
+   </persona>
+
+
+<!-- aqui datos de mas personas -->
+</personas>
+  

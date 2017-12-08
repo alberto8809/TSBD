@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alumnos>
+  <alumno id="1">
+    <datos_generales>
+
+      <nombre_completo>
+        <nombre>Victor</nombre>
+        <apPaterno>Sánchez</apPaterno>
+        <apMaterno>Sánchez</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>Indiana</calle>
+        <numero_ext>133</numero_ext>
+        <numero_int>12</numero_int>
+        <colonia>Am. López</colonia>
+        <delegacion>Milpalta</delegacion>
+        <cp>78910</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Computación</carrera>
+      <universidad>UAM</universidad>
+      <creditos>90%</creditos>
+      <division>CBI</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Generación de notas de curso guiadas por una planeación y considerando estilos de aprendizaje</nombre>
+      <asesor>Reyna Carolina Medina Ramírez</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+ <alumno id="2">
+    <datos_generales>
+
+      <nombre_completo>
+        <nombre>Ana</nombre>
+        <apPaterno>Sánchez</apPaterno>
+        <apMaterno>Sánchez</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>Orlando</calle>
+        <numero_ext>12</numero_ext>
+        <numero_int>S/N</numero_int>
+        <colonia>Nicolas Bravo</colonia>
+        <delegacion>Iztapalapa</delegacion>
+        <cp>78901</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Computación</carrera>
+      <universidad>UAM</universidad>
+      <creditos>100%</creditos>
+      <division>CBI</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Generación de notas de curso guiadas por una planeación y considerando estilos de aprendizaje</nombre>
+      <asesor>Reyna Carolina Medina Ramírez</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+
+<alumno id="3">
+      <nombre_completo>
+        <nombre>Ricardo</nombre>
+        <apPaterno>Melgoza</apPaterno>
+        <apMaterno>Cruz</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>morelos</calle>
+        <numero_ext>123</numero_ext>
+        <numero_int>12</numero_int>
+        <colonia>villada</colonia>
+        <delegacion>Cuajimalpa</delegacion>
+        <cp>78900</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Tecnologías y Sistemas de la Información</carrera>
+      <universidad>UAM</universidad>
+      <creditos>100%</creditos>
+      <division>CCD</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Gestor de archivos distribuidos basado en servicios</nombre>
+      <asesor>Dr. Cristhian Sanchez Sanchez</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+  <alumno id="4">
+    <datos_generales>
+
+      <nombre_completo>
+        <nombre>Mario Alberto</nombre>
+        <apPaterno>Reyes</apPaterno>
+        <apMaterno>Domínguez</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>av. insurgentes sur</calle>
+        <numero_ext>3</numero_ext>
+        <numero_int>122</numero_int>
+        <colonia>tlatelolco</colonia>
+        <delegacion>Cuauhtemoc</delegacion>
+        <cp>12345</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Tecnologías y Sistemas de la Información</carrera>
+      <universidad>UAM</universidad>
+      <creditos>100%</creditos>
+      <division>CCD</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Implementación de una metodología para gestionar semánticamente los recursos de una
+                memoria organizacional a través de su significado, contexto y vínculos.</nombre>
+      <asesor>Eduardo Leyva Del Foyo</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+  <alumno id="5">
+    <datos_generales>
+
+      <nombre_completo>
+        <nombre>Tonatiuh</nombre>
+        <apPaterno>Salvador</apPaterno>
+        <apMaterno>Chavez</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>ermita</calle>
+        <numero_ext>87</numero_ext>
+        <numero_int>1</numero_int>
+        <colonia>santa fe</colonia>
+        <delegacion>Cuajimalpa</delegacion>
+        <cp>7210</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Ing. en Computación</carrera>
+      <universidad>UAM</universidad>
+      <creditos>90%</creditos>
+      <division>CBI</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Señales Digitales</nombre>
+      <asesor>Abel García Najera</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+<alumno id="6">
+    <datos_generales>
+
+      <nombre_completo>
+        <nombre>Emmanuel</nombre>
+        <apPaterno>López</apPaterno>
+        <apMaterno>López</apMaterno>
+      </nombre_completo>
+
+      <direccion_completa>
+        <calle>Indiana</calle>
+        <numero_ext>133</numero_ext>
+        <numero_int>12</numero_int>
+        <colonia>Am. López</colonia>
+        <delegacion>Milpalta</delegacion>
+        <cp>78910</cp>
+      </direccion_completa>
+
+    </datos_generales>
+
+    <datos_academicos>
+      <carrera>Computación</carrera>
+      <universidad>UAM</universidad>
+      <creditos>100%</creditos>
+      <division>CBI</division>
+    </datos_academicos>
+
+    <nombre_tesis>
+      <nombre>Generación de notas de curso guiadas por una planeación y considerando estilos de aprendizaje</nombre>
+      <asesor>Reyna Carolina Medina Ramírez</asesor>
+    </nombre_tesis>
+
+  </alumno>
+
+</alumnos>

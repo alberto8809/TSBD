@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<?xml-stylesheet tipo="text/xsl" href="proyecto.xsl" ?>
+-->
+<!-- <!DOCTYPE proyectos SYSTEM "Proyectos.dtd"> -->
+<proyectos>
+    <proyecto id="1" grado="Licenciatura" tipo="Proyecto terminal" estatus="En proceso">
+        <nombre>Generación de notas de curso guiadas por una planeación y considerando estilos de aprendizaje</nombre>
+        <recursos>
+            <monto_asignado></monto_asignado>
+            <institucion_otorgante></institucion_otorgante>
+            <numero_de_acuerdo></numero_de_acuerdo>
+        </recursos>
+        <carreras>
+            <carrera>Licenciatura en Computación</carrera>
+            <carrera>Licenciatura en Elecrónica</carrera>
+        </carreras>
+
+        <asesor id_asesor="1000">Reyna Carolina Medina Ramirez</asesor>
+        <periodo>
+           <fecha_inicio dia="08" mes="mayo" año="2017" trimestre="17_P"/>
+           <fecha_fin dia="08" mes="noviembre" año="2017" trimestre="17_O"/>
+        </periodo>
+
+        <laboratorio>ARTE (AT-326)</laboratorio>
+
+        <integrantes>
+            <integrante tipo="alumno" nom="Victor" apat="Sánchez" amat="López" lic="Computación" estatus="activo"/>
+            <integrante tipo="alumno" nom="Ana"    apat="Saenz"   amat="López" lic="Computación" estatus="activo"/>
+            <integrante tipo="alumno" nom="Emmanuel" apat="López" amat="López" lic="Computación" estatus="concluido"/>
+            <integrante tipo="profesor" nom="Reyna Carolina" apat="Medina" amat="Ramírez" lic="" estatus="activo"/>
+       </integrantes>
+
+        <resumen>La creación de notas de curso en formato digital o en línea  está siendo una tendencia como apoyo a la impartición de cursos en modalidad presencial. En la web podemos encontrar gran diversidad de recursos educativos (videos, reportes, enlaces web, etc.) que apoyan a la enseñanza de algún tema específico. Por otro lado, los profesores crean sus propios recursos educativos producto de fuente propia o vinculando material obtenido de la Web. Dicho material es reutilizado o actualizan trimestre a trimestre por el propio profesor o colegas que imparten o van a impartir dicha UEA.  Es en este último donde el contar por un lado, con una planeación del curso, así como una base de recursos educativos caracterizados por estilo de aprendizaje, constituyen un apoyo invaluable para los profesores que van a impartir por primera vez un curso. Cabe mencionar que se considera como recurso  educativo a cualquier material audio-visual que pueda contribuir a reforzar la adquisición de conocimiento en el educando. Presentaciones de temas desarrollados, ejercicios, prácticas, ejemplos y tareas, son solo algunos de los recursos educativos que pueden incluirse en un curso. Una planeación es la guía que permite organizar el contenido de un curso (temas, subtemas), las actividades a realizar (leer, practicar, trabajar en equipo, etc.) por tema o subtema con una duración determinada (calendarización), así como la vinculación con el o los recursos educativos a utilizar según el o los estilos de aprendizaje que se tengan en el alumnado. </resumen>
+
+        <Obj_general>Diseñar e implementar una aplicación web para generar notas de curso guiadas por una planeación,  incorporando recursos educativos según un estilo o estilos de aprendizaje.</Obj_general>
+
+        <Obj_especifico num="1">Estudiar la literatura correspondiente a la programación en php, XML ,XSLT y tecnologías  asociadas.</Obj_especifico>
+        <Obj_especifico num="2">Recopilar y caracterizar la planeación de la UEA de estudio.</Obj_especifico>
+        <Obj_especifico num="3">Recopilar y caracterizar los recursos educativos asociados a la UEA de estudio considerando su estilo de aprendizaje.</Obj_especifico>
+        <Obj_especifico num="4">Implementación/adaptación de una aplicación web que permita consultar la base de recursos educativos.</Obj_especifico>
+        <Obj_especifico num="5">Diseñar e implementar una aplicación web que permita generar notas de curso guiada por una planeación, incorporando recursos educativos según un estilo de aprendizaje.</Obj_especifico>
+        <tecnologias>
+            <tecnologia>PHP</tecnologia>
+            <tecnologia>HTML</tecnologia>
+            <tecnologia>CSS</tecnologia>
+            <tecnologia>XML</tecnologia>
+        </tecnologias>
+
+        <conocimientos_previos>
+            <tema>Base de datos</tema>
+            <tema>Fundamentos de programación</tema>
+        </conocimientos_previos>
+    </proyecto>
+
+    <proyecto id="2" grado="Licenciatura" tipo="Proyecto" estatus="sin concluir">
+        <nombre>Implementación de una metodología para gestionar semánticamente los recursos de una
+                memoria organizacional a través de su significado, contexto y vínculos.</nombre>
+        <recursos>
+            <monto_asignado></monto_asignado>
+            <institucion_otorgante></institucion_otorgante>
+            <numero_de_acuerdo></numero_de_acuerdo>
+        </recursos>
+        <carreras>
+            <carrera>Licenciatura en Computación</carrera>
+        </carreras>
+
+        <asesor id_asesor="1000">Eduardo Leyva Del Foyo</asesor>
+        <periodo>
+           <fecha_inicio dia="10" mes="junio" año="2012" trimestre="12_P"/>
+           <fecha_fin dia="23" mes="diciemebre" año="2013" trimestre="13_P"/>
+        </periodo>
+
+        <laboratorio>AT-320</laboratorio>
+
+        <integrantes>
+            <integrante tipo="alumno" nom="Mario" apat="Reyes" amat="Domínguez" lic="Tecnloǵias y Sistemas de Información" estatus="activo"/>
+            <integrante tipo="profesor" nom="Eduardo" apat="Leyva" amat="Del Foyo" lic="" estatus="activo"/>
+       </integrantes>
+
+        <resumen>Sistema que será utlizado en UAM-C</resumen>
+
+        <Obj_general></Obj_general>
+
+        <Obj_especifico num="1">Estudiar la literatura en relación al comportamiento de la memoria</Obj_especifico>
+        <Obj_especifico num="2">Que impacto causa esta en el comportamiento de las personas.</Obj_especifico>
+
+        <tecnologias>
+            <tecnologia>PHP</tecnologia>
+            <tecnologia>HTML</tecnologia>
+            <tecnologia>CSS</tecnologia>
+            <tecnologia>XML</tecnologia>
+            <tecnologia>JSP</tecnologia>
+        </tecnologias>
+
+        <conocimientos_previos>
+            <tema>Base de datos</tema>
+            <tema>Fundamentos de programación</tema>
+            <tema>Algoritmos</tema>
+        </conocimientos_previos>
+    </proyecto>
+
+
+    <proyecto id="3" grado="Licenciatura" tipo="Proyecto" estatus="activo">
+        <nombre>Gestor de Archivos Distribuidos Basado en Servicios</nombre>
+        <recursos>
+            <monto_asignado></monto_asignado>
+            <institucion_otorgante></institucion_otorgante>
+            <numero_de_acuerdo></numero_de_acuerdo>
+        </recursos>
+        <carreras>
+            <carrera>Tecnloǵias y Sistemas de la Información</carrera>
+        </carreras>
+
+        <asesor id_asesor="1001">Cristhian Sánchez Sánchez</asesor>
+        <periodo>
+           <fecha_inicio dia="14" mes="agosto" año="2016" trimestre="16_P"/>
+           <fecha_fin dia="02" mes="Diciembre" año="2017" trimestre="17_I"/>
+        </periodo>
+
+        <laboratorio>C-505</laboratorio>
+
+        <integrantes>
+            <integrante tipo="alumno" nom="Ricardo Antonio" apat="Melgoza" amat="Cruz" lic="" estatus="activo"/>
+            <integrante tipo="profesor" nom="Cristhian" apat="Sánchez" amat="Sánchez" lic="" estatus="activo"/>
+       </integrantes>
+
+        <resumen>Realización de un sistema el cual debe de brindar el almacenamiento de archivos(documentos, imagenes, música, etc...)</resumen>
+
+        <Obj_general></Obj_general>
+
+        <Obj_especifico num="1">Garantizar el almacenamiento de archivos en un servidor local</Obj_especifico>
+        <Obj_especifico num="2">Aplicar algoritmo de encryptación AES.</Obj_especifico>
+        <Obj_especifico num="3">Aplicar algoritmo de fragmentación.</Obj_especifico>
+        <Obj_especifico num="4">Visualizar el archivo guardado.</Obj_especifico>
+
+        <tecnologias>
+            <tecnologia>JAVA</tecnologia>
+            <tecnologia>JSP</tecnologia>
+            <tecnologia>Boostrap</tecnologia>
+            <tecnologia>Scripts</tecnologia>
+            <tecnologia>MySQL</tecnologia>
+        </tecnologias>
+
+        <conocimientos_previos>
+            <tema>Base de datos</tema>
+            <tema>Fundamentos de programación</tema>
+            <tema>Algoritmos simetricos</tema>            
+        </conocimientos_previos>
+    </proyecto>
+
+
+
+
+<!-- aquí mas proyectos -->
+</proyectos>

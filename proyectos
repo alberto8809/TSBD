@@ -1,0 +1,127 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Class;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import org.jdom2.Attribute;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
+import org.jdom2.output.XMLOutputter;
+
+/**
+ *
+ * @author mario
+ */
+public class Test {
+    public static void main (String [ ] args) throws JDOMException, IOException {
+        
+              try{  
+            
+            
+            File XmlFile = new File("Proyectos.xml");
+            SAXBuilder db = new SAXBuilder();
+            Document dc = db.build(XmlFile);
+            XMLOutputter output = new XMLOutputter();
+            //Elemento Raiz root
+            Element root=dc.getRootElement();
+            //Elemnto hijo del root
+            Element child=root.getChild("proyecto");
+            //valor de atributo del hijo
+            //String tipo=child.getAttributeValue("tipo");
+            //System.out.println(tipo);
+            //elemnto del hijo
+            //Element proyecto=child.getChild("proyecto");
+            String id=child.getAttributeValue("id");
+                  //System.out.println(id);
+            String grado=child.getAttributeValue("grado");      
+                  //System.out.println(grado);
+            String tipo=child.getAttributeValue("tipo");            
+            String estatus=child.getAttributeValue("estatus");            
+            
+            Element nombre=child.getChild("nombre");
+            String valu=nombre.getText();
+                  //System.out.println(valu);
+            Element recursos=child.getChild("recursos");      
+            Element monto_asignado=recursos.getChild("monto_asignado");
+            Element institucion_otorgante=recursos.getChild("institucion_otorgante");
+            Element numero_de_acuerdo=recursos.getChild("numero_de_acuerdo");
+            
+            Element  carreras=child.getChild("carreras");      
+            List <Element> carrera = carreras.getChildren();
+            for(int i=0;i<carrera.size();i++){
+                String carrera2=carrera.get(i).getText();
+                //System.out.println(carrera2);
+            }
+           Element asesor=child.getChild("asesor");      
+           String id_asesor=asesor.getAttributeValue("id_asesor");
+                  //System.out.println(id_asesor);
+           String text=asesor.getText();
+                  //System.out.println(text);
+           Element periodo=child.getChild("periodo");      
+           Element fecha_inicio=periodo.getChild("fecha_inicio");
+           String dia=fecha_inicio.getAttributeValue("dia");
+           String mes=fecha_inicio.getAttributeValue("mes");
+           String año=fecha_inicio.getAttributeValue("año");
+           String trimestre=fecha_inicio.getAttributeValue("trimestre");
+           
+           Element fecha_fin=periodo.getChild("fecha_fin");
+           String dia_F=fecha_inicio.getAttributeValue("dia");
+           String mes_F=fecha_inicio.getAttributeValue("mes");
+           String año_F=fecha_inicio.getAttributeValue("año");
+           String trimestre_F=fecha_inicio.getAttributeValue("trimestre");
+           
+           
+           Element laboratorio=child.getChild("laboratorio");      
+           String lab=laboratorio.getText();
+                 // System.out.println(lab);
+           Element integrantes=child.getChild("integrantes");      
+           List <Element> integrante=integrantes.getChildren();
+            for(int i=0;i<integrante.size();i++){
+                String tipo_I=integrante.get(i).getAttributeValue("tipo");
+                String nom=integrante.get(i).getAttributeValue("nom");
+                String apat=integrante.get(i).getAttributeValue("apat");
+                String amat=integrante.get(i).getAttributeValue("amat");
+                String lic=integrante.get(i).getAttributeValue("lic");
+                String estatus_I=integrante.get(i).getAttributeValue("estatus");
+                 //System.out.println(lic);
+            }
+            Element resumen=child.getChild("resumen");      
+            String resu=resumen.getText();
+                  //System.out.println(resu);
+                  
+            Element Obj_general=child.getChild("Obj_general");            
+            String valor=Obj_general.getText();
+                 //System.out.println(valor);
+           Element Obj_especifico=child.getChild("Obj_especifico");                  
+           String num=Obj_especifico.getAttributeValue("num");
+           String val=Obj_especifico.getText();
+                 // System.out.println(num+val);
+                  
+                  
+           Element tecnologias=child.getChild("tecnologias");                  
+           List <Element> tecnologia=tecnologias.getChildren();
+               for(int i=0;i<tecnologia.size();i++){
+                   String value=tecnologia.get(i).getText();
+                   //System.out.println(value);
+               }
+           Element conocimientos_previos=child.getChild("conocimientos_previos");                  
+           List <Element> tema=conocimientos_previos.getChildren();
+               for(int i=0;i<tema.size();i++){
+                   String tema2=tema.get(i).getText();
+                   //System.out.println(tema2);
+               }
+            
+        }catch(Exception e){
+            System.out.println("Exception : "+e.getMessage());
+            e.printStackTrace();
+        }
+          //Element root = new Element("personas");
+    }
+}
